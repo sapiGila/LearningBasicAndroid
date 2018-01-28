@@ -13,4 +13,5 @@
     <string name="submit_text">Submit</string>
     <string name="share_text">Bagikan Saya!</string>
     <string name="go_to_fragment_text">Go To Fragment Activity</string>
+    <string name="go_to_retrofit_activity_text">Go To Retrofit Activity</string>
 </resources>

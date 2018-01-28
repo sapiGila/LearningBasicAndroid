@@ -8,6 +8,7 @@ import android.view.View;
 import basic.app.id.learningbasicandroid.fragment.TutorialFragmentActivity;
 import basic.app.id.learningbasicandroid.intents.TutorialIntentsActivity;
 import basic.app.id.learningbasicandroid.lifecycle.LifeCycleActivity;
+import basic.app.id.learningbasicandroid.retrofit.RetrofitActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         startActivity(new Intent(MainActivity.this, TutorialFragmentActivity.class));
+                    }
+                });
+        findViewById(R.id.go_to_retrofit_activity)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivity(new Intent(MainActivity.this, RetrofitActivity.class));
                     }
                 });
     }
