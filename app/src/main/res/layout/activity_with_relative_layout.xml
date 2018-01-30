@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/relative_layout_padding_right"
+    android:paddingLeft="@dimen/relative_layout_padding_left"
+    android:paddingRight="@dimen/relative_layout_padding_right"
+    android:paddingStart="@dimen/relative_layout_padding_left"
+    tools:context=".layout.RelativeLayoutActivity">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/input2"
+        android:layout_toStartOf="@id/input2"
+        android:ems="10"
+        android:hint="@string/first_name_field"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/last_name_field"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input2"
+        android:layout_marginTop="10dp"
+        android:text="@string/button_text" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/value_field"
+        android:textSize="20sp" />
+
+</RelativeLayout>

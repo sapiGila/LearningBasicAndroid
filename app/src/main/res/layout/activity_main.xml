@@ -8,10 +8,10 @@
     tools:context="basic.app.id.learningbasicandroid.MainActivity">
 
     <Button
-        android:id="@+id/go_to_life_cycle_activity_button"
+        android:id="@+id/go_to_relative_layout_sample_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/go_to_life_cycle_activity_text"
+        android:text="@string/go_to_relative_layout_sample_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,30 +20,23 @@
         app:layout_constraintVertical_bias="0.075" />
 
     <Button
-        android:id="@+id/go_to_intent_activity"
-        android:layout_width="match_parent"
+        android:id="@+id/go_to_linear_layout_sample_button"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/go_to_intent_activity_text"
+        android:layout_marginTop="10dp"
+        android:text="@string/go_to_linear_layout_sample_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/go_to_life_cycle_activity_button" />
+        app:layout_constraintTop_toBottomOf="@+id/go_to_relative_layout_sample_button" />
 
     <Button
-        android:id="@+id/go_to_fragment_activity"
-        android:layout_width="match_parent"
+        android:id="@+id/go_to_constraint_layout_sample_button"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/go_to_fragment_text"
+        android:layout_marginTop="10dp"
+        android:text="@string/go_to_constraint_layout_sample_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/go_to_intent_activity" />
-
-    <Button
-        android:id="@+id/go_to_retrofit_activity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/go_to_retrofit_activity_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/go_to_fragment_activity" />
+        app:layout_constraintTop_toBottomOf="@+id/go_to_linear_layout_sample_button" />
 
 </android.support.constraint.ConstraintLayout>

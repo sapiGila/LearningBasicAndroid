@@ -1,20 +1,11 @@
 <resources>
     <string name="app_name">LearningBasicAndroid</string>
-    <string name="lifecycle_text">Lifecycle Activity</string>
-    <string name="boo_text">Booo!!!</string>
-    <string name="go_to_next_activity_text">Tekan Saya</string>
-    <string name="go_to_life_cycle_activity_text">Go To Life Cycle Activity</string>
-    <string name="go_to_intent_activity_text">Go To Intent Activity</string>
-    <string name="clear_text">Bersihkan Saya!</string>
-    <string name="title_activity_basic_android">BasicAndroidActivity</string>
-    <string name="name_text">Name</string>
-    <string name="email_text">Email</string>
-    <string name="reply_text">Reply</string>
-    <string name="submit_text">Submit</string>
-    <string name="share_text">Bagikan Saya!</string>
-    <string name="go_to_fragment_text">Go To Fragment Activity</string>
-    <string name="go_to_retrofit_activity_text">Go To Retrofit Activity</string>
-    <string name="add_text">Add</string>
-    <string name="edit_text">Edit</string>
-    <string name="delete_text">Delete</string>
+    <string name="go_to_relative_layout_sample_text">Go To Relative Layout Sample</string>
+    <string name="first_name_field">First Name</string>
+    <string name="last_name_field">Last Name</string>
+    <string name="value_field">Value</string>
+    <string name="activity_with_relative_layout">Activity with Relative Layout</string>
+    <string name="button_text">Button</string>
+    <string name="go_to_linear_layout_sample_text">Go To Linear Layout Sample</string>
+    <string name="go_to_constraint_layout_sample_button">Go To Constraint Layout Sample</string>
 </resources>

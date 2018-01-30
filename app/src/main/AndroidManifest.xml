@@ -19,12 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DummyActivity" />
-        <activity android:name=".lifecycle.LifeCycleActivity" />
-        <activity android:name=".intents.TutorialIntentsActivity" />
-        <activity android:name=".intents.ActivityNext" />
-        <activity android:name=".fragment.TutorialFragmentActivity" />
-        <activity android:name=".retrofit.RetrofitActivity"></activity>
+        <activity android:name=".layout.RelativeLayoutActivity" />
+        <activity android:name=".layout.LinearLayoutActivity" />
+        <activity android:name=".layout.ConstraintLayoutActivity"></activity>
     </application>
 
 </manifest>

@@ -1,14 +1,13 @@
 package basic.app.id.learningbasicandroid;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import basic.app.id.learningbasicandroid.fragment.TutorialFragmentActivity;
-import basic.app.id.learningbasicandroid.intents.TutorialIntentsActivity;
-import basic.app.id.learningbasicandroid.lifecycle.LifeCycleActivity;
-import basic.app.id.learningbasicandroid.retrofit.RetrofitActivity;
+import basic.app.id.learningbasicandroid.layout.ConstraintLayoutActivity;
+import basic.app.id.learningbasicandroid.layout.LinearLayoutActivity;
+import basic.app.id.learningbasicandroid.layout.RelativeLayoutActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,32 +15,25 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.go_to_life_cycle_activity_button)
+        findViewById(R.id.go_to_relative_layout_sample_button)
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(MainActivity.this, LifeCycleActivity.class));
+                        startActivity(new Intent(MainActivity.this, RelativeLayoutActivity.class));
                     }
                 });
-        findViewById(R.id.go_to_intent_activity)
+        findViewById(R.id.go_to_linear_layout_sample_button)
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(MainActivity.this, TutorialIntentsActivity.class));
+                        startActivity(new Intent(MainActivity.this, LinearLayoutActivity.class));
                     }
                 });
-        findViewById(R.id.go_to_fragment_activity)
+        findViewById(R.id.go_to_constraint_layout_sample_button)
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(MainActivity.this, TutorialFragmentActivity.class));
-                    }
-                });
-        findViewById(R.id.go_to_retrofit_activity)
-                .setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        startActivity(new Intent(MainActivity.this, RetrofitActivity.class));
+                        startActivity(new Intent(MainActivity.this, ConstraintLayoutActivity.class));
                     }
                 });
     }
