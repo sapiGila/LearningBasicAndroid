@@ -8,6 +8,7 @@ import android.view.View;
 import basic.app.id.learningbasicandroid.layout.ConstraintLayoutActivity;
 import basic.app.id.learningbasicandroid.layout.LinearLayoutActivity;
 import basic.app.id.learningbasicandroid.layout.RelativeLayoutActivity;
+import basic.app.id.learningbasicandroid.recyclerviewandgridview.RecyclerAndGridActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         startActivity(new Intent(MainActivity.this, ConstraintLayoutActivity.class));
+                    }
+                });
+        findViewById(R.id.go_to_recycler_and_grid_view_sample_button)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivity(new Intent(MainActivity.this, RecyclerAndGridActivity.class));
                     }
                 });
     }

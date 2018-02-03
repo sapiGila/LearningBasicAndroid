@@ -8,4 +8,5 @@
     <string name="button_text">Button</string>
     <string name="go_to_linear_layout_sample_text">Go To Linear Layout Sample</string>
     <string name="go_to_constraint_layout_sample_button">Go To Constraint Layout Sample</string>
+    <string name="go_to_recycle_view_and_grid_view_text">Go To Recycle View and Grid View Sample</string>
 </resources>

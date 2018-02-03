@@ -21,7 +21,8 @@
         </activity>
         <activity android:name=".layout.RelativeLayoutActivity" />
         <activity android:name=".layout.LinearLayoutActivity" />
-        <activity android:name=".layout.ConstraintLayoutActivity"></activity>
+        <activity android:name=".layout.ConstraintLayoutActivity" />
+        <activity android:name=".recyclerviewandgridview.RecyclerAndGridActivity"></activity>
     </application>
 
 </manifest>
