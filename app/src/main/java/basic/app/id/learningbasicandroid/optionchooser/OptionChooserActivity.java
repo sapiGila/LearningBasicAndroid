@@ -21,19 +21,15 @@ public class OptionChooserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_option_chooser);
-
         Spinner spinner = findViewById(R.id.spinner);
         LinearLayout leftPanel = findViewById(R.id.leftPanel);
         LinearLayout rightPanel = findViewById(R.id.rightPanel);
         LinearLayout leftPanelRadio = findViewById(R.id.leftPanelRadio);
         LinearLayout rightPanelRadio = findViewById(R.id.rightPanelRadio);
-
         generateLeftCheckBoxes(leftPanel);
         generateRightCheckBoxes(rightPanel);
-
         generateLeftRadios(leftPanelRadio);
         generateRightRadios(rightPanelRadio);
-
         ArrayAdapter<String> itemAdapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_spinner_item, getItems());
         itemAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
